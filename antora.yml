@@ -1,0 +1,10 @@
+name: vulkan-samples
+title: Vulkan Samples
+start_page: README.adoc
+version: 1.0.0
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc
