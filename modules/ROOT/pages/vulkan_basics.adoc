@@ -159,7 +159,7 @@ The most important thing to remember with Vulkan is that it is not necessarily g
 The GPU hardware is the same and the rendering functionality exposed by Vulkan is almost identical to that found in OpenGL ES.
 If your application is limited by GPU rendering performance then it is unlikely that Vulkan will give you better performance.
 
-NOTE: {blank} + Reducing CPU load can free up thermal budget for the GPU, which may allow higher GPU frequencies to be used, so an indirect performance increase may be possible on some platforms.
+NOTE: Reducing CPU load can free up thermal budget for the GPU, which may allow higher GPU frequencies to be used, so an indirect performance increase may be possible on some platforms.
 
 === Advantages [[advantages]]
 

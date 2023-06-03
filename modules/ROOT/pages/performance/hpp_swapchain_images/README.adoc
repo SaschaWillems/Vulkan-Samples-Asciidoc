@@ -19,11 +19,9 @@
 :doctype: book
 :pp: {plus}{plus}
 
-=== HPP Swapchain Images +
+= HPP Swapchain Images - Choosing the right number of swapchain images - 
 
 A transcoded version of the performance sample https://github.com/KhronosGroup/Vulkan-Samples/tree/master/samples/performance/swapchain_images[Swapchain Images] that illustrates the usage of the C{pp} bindings of vulkan provided by vulkan.hpp.
-
-= Choosing the right number of swapchain images
 
 == Overview
 

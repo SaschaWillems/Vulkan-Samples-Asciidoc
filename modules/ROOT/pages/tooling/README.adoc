@@ -1,5 +1,5 @@
 ////
-- Copyright (c) 2021, The Khronos Group
+- Copyright (c) 2023, The Khronos Group
 -
 - SPDX-License-Identifier: Apache-2.0
 -
@@ -16,9 +16,8 @@
 - limitations under the License.
 -
 ////
-= Performance samples
+= Tooling samples
 
-The goal of these samples is to demonstrate how to use certain features and functions to achieve optimal performance.
-To visualize this, they also include real-time profiling information.
+The goal of these samples is to demonstrate how to use tooling features that are not directly part of Vulkan, but e.g. provided by the LunarG Vulkan SDK.
 
-A list of all performance samples can be found xref:ROOT:README.adoc#performance-samples[here].
+A list of all extension samples can be found xref:ROOT:README.adoc#tooling-samples[here].

@@ -19,6 +19,10 @@
 = Using HLSL shaders in Vulkan
 :doctype: book
 
+ifdef::site-gen-antora[]
+TIP: The source for this sample can be found in the https://github.com/KhronosGroup/Vulkan-Samples/tree/main/samples/api/hlsl_shaders[Khronos Vulkan samples github repository].
+endif::[]
+
 This tutorial, along with the accompanying example code, shows how to use shaders written in the High Level Shading Language (HLSL) in Vulkan at runtime.
 
 Vulkan does not directly consume shaders in a human-readable text format, but instead uses SPIR-V as an intermediate representation.
@@ -26,9 +30,9 @@ This opens the option to use shader languages other than e.g.
 GLSL, as long as they can target the Vulkan SPIR-V environment.
 One such language is Microsoft's HLSL, which is the shading language for DirectX.
 
-Details on how HLSL fits into the Vulkan ecosystem can be found in  this https://github.com/KhronosGroup/Vulkan-Guide/blob/master/chapters/hlsl.adoc[Vulkan guide chapter].
+Details on how HLSL fits into the Vulkan ecosystem can be found in  this xref:guide:ROOT:hlsl.adoc[Vulkan guide chapter].
 
-= HLSL Syntax
+== HLSL Syntax
 
 HLSL is a bit more object-oriented than GLSL, but the general structure of a shader is similar Vulkan-specific functions are marked with the https://github.com/microsoft/DirectXShaderCompiler/blob/master/docs/SPIR-V.rst#the-implicit-vk-namespace[implicit `vk` namespace]:
 
@@ -65,7 +69,7 @@ VSOutput main(VSInput input)
 }
 ----
 
-= Glslang
+== Glslang
 
 The Vulkan samples use https://github.com/KhronosGroup/glslang[Glslang] for converting shaders to SPIR-V at runtime.
 Glslang is the reference GLSL validator and translator, but also supports HLSL as an input language.
@@ -74,7 +78,7 @@ HLSL support in Glslang limited though and for a more feature complete HLSL to S
 
 For the basic shader in this tutorial, we can go with Glslang though, as it supports all features we require.
 
-= Converting HLSL to SPIR-V
+== Converting HLSL to SPIR-V
 
 Loading HLSL with Glslang is similar to loading GLSL, but requires different parameters.
 Here are the relevant parts that differ from loading HLSL from the `HlslShaders::load_hlsl_shader` function of the sample:
@@ -120,7 +124,7 @@ glslang::GlslangToSpv(*intermediate, spirv, &logger);
 ...
 ----
 
-= Creating the shader module
+== Creating the shader module
 
 The call to `glslang::GlslangToSpv` will generate the SPIR-V bytecode that we can use to create the Vulkan shader module from:
 

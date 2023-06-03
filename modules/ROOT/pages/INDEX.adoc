@@ -1,0 +1,22 @@
+// Copyright 2023 The Khronos Group, Inc.
+// SPDX-License-Identifier: CC-BY-4.0
+
+= Vulkan^®^ Samples
+:regtitle: pass:q,r[^®^]
+The Khronos{regtitle} Vulkan Working Group
+:data-uri:
+:icons: font
+:max-width: 100%
+:numbered:
+:source-highlighter: rouge
+:rouge-style: github
+
+image::vulkan_logo.png[Vulkan Logo]
+image::khronos_logo.png[Khronos logo]
+
+// Use {chapters} as base path for individual chapters, to allow single
+// pages to work properly as well. Must have trailing slash.
+// Implicit {relfileprefix} does not work due to file hierarchy
+:chapters: chapters/
+
+The Vulkan Samples is collection of resources to help you develop optimized Vulkan applications.
