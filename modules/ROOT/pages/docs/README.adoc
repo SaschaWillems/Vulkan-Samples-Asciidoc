@@ -1,0 +1,28 @@
+////
+- Copyright (c) 2023, The Khronos Group
+-
+- SPDX-License-Identifier: Apache-2.0
+-
+- Licensed under the Apache License, Version 2.0 the "License";
+- you may not use this file except in compliance with the License.
+- You may obtain a copy of the License at
+-
+-     http://www.apache.org/licenses/LICENSE-2.0
+-
+- Unless required by applicable law or agreed to in writing, software
+- distributed under the License is distributed on an "AS IS" BASIS,
+- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+- See the License for the specific language governing permissions and
+- limitations under the License.
+-
+////
+= General documentation
+
+This folder contains general documentation for this sample repository.
+
+* xref:docs/build.adoc[Build guide]
+* xref:docs/create_sample.adoc[Creating a new sample]
+* xref:docs/debug_graphs.adoc[Debug graphics]
+* xref:docs/memory_limits.adoc[Memory limits]
+* xref:docs/misc.adoc[Miscellaneous]
+* xref:docs/testing.adoc[Automated testing]
