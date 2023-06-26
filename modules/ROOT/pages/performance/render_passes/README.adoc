@@ -70,7 +70,7 @@ image::render_passes/clear_store.jpg[Using LOAD_OP_CLEAR]
 
 We can estimate the bandwidth cost of loading/storing an uncompressed attachment as `width * height * bpp/8 * FPS [MiB/s]`.
 We calculate an estimate of `2220 * 1080 * (32/8) * ~60 = ~575 MiB/s`.
-The savings will be lower if the images are compressed, see xref:../afbc/README.adoc[Enabling AFBC in your Vulkan Application].
+The savings will be lower if the images are compressed, see xref:performance/afbc/README.adoc[Enabling AFBC in your Vulkan Application].
 
 == Depth attachment store operation
 
