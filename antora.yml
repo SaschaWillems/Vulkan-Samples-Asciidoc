@@ -1,10 +1,11 @@
 name: vulkan-samples
 title: Vulkan Samples
-start_page: README.adoc
 version: 1.0.0
+# start_page: INDEX.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@
     table-caption: false
+    github-repo-url: https://github.com/KhronosGroup/Vulkan-Samples/tree/main/samples/  
 nav:
 - modules/ROOT/nav.adoc

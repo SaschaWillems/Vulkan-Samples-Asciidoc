@@ -19,7 +19,7 @@
 = Graphics pipeline libraries
 
 ifdef::site-gen-antora[]
-TIP: The source for this sample can be found in the https://github.com/KhronosGroup/Vulkan-Samples/tree/main/samples/extensions/graphics_pipeline_library[Khronos Vulkan samples github repository].
+TIP: The source for this sample can be found in the {github-repo-url}extensions/graphics_pipeline_library[Khronos Vulkan samples github repository].
 endif::[]
 
 == Overview
