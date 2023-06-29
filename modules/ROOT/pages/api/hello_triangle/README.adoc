@@ -16,11 +16,11 @@
 - limitations under the License.
 -
 ////
-
-=== Hello Triangle
+= Hello Triangle
+:page-source-folder: api/hello_triangle
 
 ifdef::site-gen-antora[]
-TIP: The source for this sample can be found in the {github-repo-url}api/hello_triangle[Khronos Vulkan samples github repository].
+TIP: The source for this sample can be found in the {github-repo-url}{page-source-folder}[Khronos Vulkan samples github repository].
 endif::[]
 
 A self-contained (minimal use of framework) sample that illustrates the rendering of a triangle.

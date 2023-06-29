@@ -1,7 +1,7 @@
 name: vulkan-samples
 title: Vulkan Samples
 version: 1.0.0
-# start_page: INDEX.adoc
+start_page: README.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@
