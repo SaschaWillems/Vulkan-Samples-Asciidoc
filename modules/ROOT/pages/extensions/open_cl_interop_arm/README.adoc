@@ -43,7 +43,7 @@ This sample covers one of these options, which is more relevant to mobile develo
 Native hardware buffers on Android represent a region of memory which can be bound to Vulkan, OpenGL ES or OpenCL primitives.
 This allows us to reuse it with two different APIs:
 
-image::open_cl_interop/shared_hardware_buffer.png[Sample]
+image::open_cl_interop_arm/shared_hardware_buffer.png[Sample]
 
 === Support by Vulkan API
 
@@ -164,7 +164,7 @@ Synchronization between APIs is performed on host:
 * OpenCL queue is flushed before rendering
 * A `VkFence` object is used to make sure the rendering is finished
 
-image::open_cl_interop/sample.png[Sample]
+image::open_cl_interop_arm/sample.png[Sample]
 
 == Conclusion
 
