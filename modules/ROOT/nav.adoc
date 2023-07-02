@@ -1,5 +1,6 @@
 * xref:README.adoc[Readme]
 * xref:vulkan_basics.adoc[Vulkan basics]
+* xref:framework/README.adoc[Sample framework]
 * xref:api/README.adoc[Api usage samples]
 ** xref:api/compute_nbody/README.adoc[Compute N-body❕]
 *** xref:api/hpp_compute_nbody/README.adoc[hpp compute nbody❕]
